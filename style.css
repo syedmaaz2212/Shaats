@@ -121,8 +121,7 @@ body {
 }
 
 .serve-img {
-  width: 500px;
-  height: 400px;
+  width: 25rem;
   object-fit: cover;
 }
 
