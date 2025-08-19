@@ -1,0 +1,129 @@
+/* navbar */
+.btn-nav {
+    background-color: #ffffff;
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 0.4rem 0.7rem;
+    font-weight: 500;
+    margin: 5px;
+}
+
+nav div ul li{
+    font-weight: 500;
+    color: black;
+}
+
+/* top of every block ex: block number, name */
+.every-block{
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #4f66a0;
+    font-weight: 500;
+}
+
+.line {
+    width: 80%;
+    height: 5px;
+    border-top: 2px solid rgb(123, 123, 123);
+    line-height: 80%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.nuance-banner {
+  background: url('theme/background.png') no-repeat center top;
+  background-size: auto; 
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skinAlys-banner {
+  background: url('theme/skinAlys.png') no-repeat center top;
+  background-size: auto; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero section for background img */
+.hero-section {
+  padding: 5rem 1rem;
+  max-width: auto;
+  margin: auto;
+}
+
+.hero-title {
+  font-family: 'Sofia', sans-serif; 
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.btn-formula {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.btn-formula:hover {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-formula .arrow {
+  margin-left: 0.5rem;
+}
+
+/* footer */
+.footer-card {
+  position: relative;
+  background: linear-gradient(to right, #d8e2ec, #98b4f9);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 80rem !important;
+  z-index: 2;
+  margin: 30px; 
+}
+
+.footer-card input {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  width: 30rem;
+  margin: 0px; 
+}
+
+.SLHS {
+  font-weight: 500;
+  color: #4f66a0;
+}
+
+.footer-card ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-card ul li{
+  padding: 2px;
+  text-align: start;
+  margin-left: 7rem;
+}
